@@ -44,6 +44,7 @@ class _HomePageState extends State<HomePage> {
                   left: 150.0,
                 ),
                 child: Row(
+                  mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
@@ -77,13 +78,11 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     const Stack(
-                      fit: StackFit.loose,
                       clipBehavior: Clip.none,
                       children: [
                         Positioned(
                           right: -40,
-                          height: 250,
-                          width: 250,
+                          bottom: -60,
                           child: CircleGreen(),
                         ),
                         RotationTransition(

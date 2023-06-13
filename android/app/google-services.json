@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "446276719557",
-    "project_id": "bankwebui",
-    "storage_bucket": "bankwebui.appspot.com"
+    "project_number": "1047584945353",
+    "project_id": "bankwebui-6af2d",
+    "storage_bucket": "bankwebui-6af2d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:446276719557:android:ab94126238ee1b2f8bb1ac",
+        "mobilesdk_app_id": "1:1047584945353:android:b81c86966eca3c4a608918",
         "android_client_info": {
           "package_name": "com.example.bankwebui"
         }
       },
       "oauth_client": [
         {
-          "client_id": "446276719557-dvj0j1g7sngu8118d72klup0e0mf5q3l.apps.googleusercontent.com",
+          "client_id": "1047584945353-de6d2aia4dknrleid8cg863a04idcf41.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDnNLeBgBffMXGDURkdQOzqCDT1mtQ8bZc"
+          "current_key": "AIzaSyD50uAogTGQNvPN4kBEkGQxCbPNgTMnXvM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "446276719557-dvj0j1g7sngu8118d72klup0e0mf5q3l.apps.googleusercontent.com",
+              "client_id": "1047584945353-de6d2aia4dknrleid8cg863a04idcf41.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

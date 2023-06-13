@@ -143,14 +143,18 @@ class CreditCard extends StatelessWidget {
 }
 
 class CircleGreen extends StatelessWidget {
-  const CircleGreen({super.key});
+  const CircleGreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: CustomColors.lightGreen,
-        shape: BoxShape.circle,
+    return SizedBox(
+      height: 300,
+      width: 300,
+      child: Container(
+        decoration: BoxDecoration(
+          color: CustomColors.lightGreen,
+          shape: BoxShape.circle,
+        ),
       ),
     );
   }
